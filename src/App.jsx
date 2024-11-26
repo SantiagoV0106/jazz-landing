@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AppleIcon, Benefit, BlueApronLogo, Button, Footer, Header, Input, RecipeIcon, Team, Value, } from "./components"
-import jazzLogo from './assets/images/logos/jazz-blue-apron.png'
+// import {jazzLogo} from './assets/images/logos/jazz-blue-apron.png'
 import heroBg from './assets/images/bg/hero-bg.png';
 import heroMokup from './assets/images/bg/hero-mockup.webp';
 import compBg from './assets/images/bg/component-bg.png';
@@ -46,7 +46,7 @@ function App() {
       >
         <div className="mt-auto mx-auto flex gap-32 max-lg:gap-24 max-[960px]:flex-col max-[960px]:gap-14 max-lg:mb-auto max-lg:items-center ">
           <div className="flex flex-col gap-24">
-            <img className="w-[368px] max-[1140px]:w-[298px]" src={jazzLogo} alt="JazzByBlueApron" />
+            {/* <img className="w-[368px] max-[1140px]:w-[298px]" src={jazzLogo} alt="JazzByBlueApron" /> */}
             <img className="max-lg:hidden max-[1140px]:w-[348px]" src={heroMokup} alt="Blue apron hero mockup" />
           </div>
           <div className="flex flex-col gap-6 max-sm:px-4">
